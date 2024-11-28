@@ -48,7 +48,7 @@ Save handwritten answer sheets as images (e.g., JPEG, PNG).
 Store reference answers in a text or CSV file.
 
 ### Run the Checker:
-python answer_checker.py --input <path_to_images> --answers <path_to_reference_answers>
+- [python answer_checker.py --input <path_to_images> --answers <path_to_reference_answers>](steps)
 
 ### View Results:
 Graded results will be saved in the output/ directory as a CSV or JSON file.
