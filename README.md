@@ -4,6 +4,15 @@
 
 The Automatic Answer Checker is a software application designed to evaluate handwritten answers against a given set of correct answers. It utilizes OCR (Optical Character Recognition) and natural language processing (NLP) technologies to recognize text from handwritten submissions and assess them based on predefined criteria.
 
+## Table of Contents
+
+- [Features](#Features)
+- [Requirements](#Requirements)
+- [Usage](#Usage)
+- [Acknowledgments](#Acknowledgments)
+- [How to Contribute](#How-to-Contribute)
+
+
 ## Features
 
 Handwriting Recognition: Extracts text from handwritten images using OCR.
@@ -15,18 +24,21 @@ Error Reporting: Highlights discrepancies between the handwritten response and t
 ## Requirements
 
 ### Software
-Python 3.8 or later
-OCR Engine (e.g., Tesseract)
-NLP Library (e.g., SpaCy, NLTK, or Hugging Face Transformers)
+- [Python 3.x](https://www.python.org/)
+- [OCR Engine](https://pypi.org/project/pytesseract/)
+- [NLP Library (e.g., SpaCy, NLTK, or Hugging Face Transformers)](https://www.nltk.org/book/))
+
 
 ### Modules 
 opencv-python
-pytesseract
-PIL
-scikit-learn
-nltk
-os
-tkinter
+- [pytesseract](https://pypi.org/project/pytesseract/)
+- [PIL](https://pypi.org/project/pillow/)
+- [Scikit-learn Documentation](https://scikit-learn.org/)
+- [nltk](https://www.nltk.org/book/)
+- [os](https://docs.python.org/3/library/os.html)
+- [tkinter](https://docs.python.org/3/library/tkinter.html)
+
+
 
 
 ## Usage
@@ -42,9 +54,19 @@ python answer_checker.py --input <path_to_images> --answers <path_to_reference_a
 Graded results will be saved in the output/ directory as a CSV or JSON file.
 Detailed reports (optional) include detected handwriting and marked discrepancies.
 
+## How to Contribute
+
+We encourage you to contribute to the projects by following these steps:
+
+1. **Fork the repository**
+2. **Create a new branch** (`git checkout -b feature/YourFeatureName`)
+3. **Commit your changes** (`git commit -m 'Add some feature'`)
+4. **Push to the branch** (`git push origin feature/YourFeatureName`)
+5. **Create a Pull Request**
+
 ## Acknowledgments
 
-Tesseract OCR
-SpaCy
-NLTK
-OpenAI for NLP inspiration.
+**Tesseract OCR**
+**Scikit-learn**
+**NLTK**
+**OpenAI for NLP inspiration**
