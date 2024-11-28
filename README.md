@@ -66,7 +66,7 @@ We encourage you to contribute to the projects by following these steps:
 
 ## Acknowledgments
 
-**Tesseract OCR**
-**Scikit-learn**
-**NLTK**
-**OpenAI for NLP inspiration**
+1. **Tesseract OCR**
+2. **Scikit-learn**
+3. **NLTK**
+4. **OpenAI for NLP inspiration**
